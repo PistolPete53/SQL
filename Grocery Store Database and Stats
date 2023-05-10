@@ -20,4 +20,8 @@ INSERT INTO store VALUES (15, "Candy", 1.50, 10, 2);
 
 --display the database ordered by price.
 SELECT * FROM store
-ORDER BY price desc;
+ORDER BY price;
+
+--display the database
+SELECT name, aisle FROM store
+WHERE price <70;
