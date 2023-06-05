@@ -22,6 +22,6 @@ INSERT INTO store VALUES (15, "Candy", 1.50, 10, 2);
 SELECT * FROM store
 ORDER BY price;
 
---display the database
+--display the database where the price is greater than 70.
 SELECT name, aisle FROM store
 WHERE price <70;
